@@ -1,0 +1,31 @@
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;    
+}
+.header--logo{
+    margin-left:40px;
+}
+.header--menu{
+    display: contents;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+}
+p, a{
+  color: #E0CCB3;  
+  font-size: 20px;
+  text-decoration: none;
+}
+p:hover{
+    color: #FDC029;
+    text-decoration: none;
+}
+p.carrinho{
+    margin-right: 80px!important;
+    font-size: 30px;
+}

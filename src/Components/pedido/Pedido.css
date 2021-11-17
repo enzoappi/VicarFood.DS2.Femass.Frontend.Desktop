@@ -1,0 +1,31 @@
+
+.app-menu_link{
+    text-decoration: none;
+    color:#181820;
+    font-family: sans-serif;
+    display: flex;
+    align-self: center;
+}
+.imagem{
+    background-image: url(../../assets/images/bg_1.jpg);
+    height: 500px;
+}
+h1{
+    filter: drop-shadow(2px 4px 6px black);
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.menu{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu--batata, .menu--bebida, .menu--costela{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}

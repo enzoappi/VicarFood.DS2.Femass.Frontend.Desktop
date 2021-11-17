@@ -1,0 +1,50 @@
+div.listaBebida{
+    background-color: #2D2D32;
+    padding: 1em;
+    width: 80%;
+    margin: 2% 10%;
+    border-radius: 1em;
+    font-size: 20px;
+    display: flex;
+}
+.bebida{
+    font-size:30px;
+    align-self: auto;
+}
+.imagem--bebida{
+    background-image: url(../../../assets/images/drink-4.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+    background-position: -0px -400px;
+}
+.quantidade{
+    width:20%;
+    cursor: pointer;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: #E0CCB3;
+    margin: 20px;   
+}
+.bebida2{
+    display: grid;
+    width: inherit;
+    padding-left: 5%;
+}
+.add{
+    font-size: 25px;
+    align-self: center;    
+    color: #E0CCB3;
+}
+.add:hover{
+    color: #FDC029;
+}
+.addCart{
+    font-size: 25px;
+    align-self: center;    
+    color: #E0CCB3;
+    padding-left: 15px;
+}

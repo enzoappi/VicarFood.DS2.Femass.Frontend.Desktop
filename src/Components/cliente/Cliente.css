@@ -1,0 +1,79 @@
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+}
+h3{
+    text-align: initial;
+    margin: 20px;
+    padding-left: 3%;
+    margin-bottom: 0px;
+}
+input{
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 4px;
+    height: 44px;
+    padding: 15px;
+    color: #E0CCB3;
+    margin: 0 0 10px;
+}
+.box{
+    background-color: #2D2D32;
+    padding: 1em;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 1em;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.save, .edit {
+    font-size: 30px;
+    text-decoration: none;
+    color:#E0CCB3;
+}
+
+button {
+   background-color: #2D2D32;
+   border: none;
+   text-decoration: none;  
+}
+
+div.btnSaveEdit {
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+}
+
+.boxCheckbox{
+    display: inline;
+    flex-direction: column;
+}
+.checkbox{   
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    height: 13px;  
+}
+.finalizar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 3% 5% 2%;
+    
+}
+.textTaxa{
+    margin-left: 1%;
+    margin-bottom: 0px;
+}
+.imagem--cliente{
+    background-image: url(../../assets/images/bg_1.jpg);
+    height: 500px;
+
+}
+.space{
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
